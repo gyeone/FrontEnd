@@ -1,0 +1,12 @@
+.footer {
+    font-family: 'Cafe24SsurroundAir';
+    border-top: 2px solid #000000;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
