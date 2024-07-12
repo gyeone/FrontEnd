@@ -1,0 +1,57 @@
+.header{
+    display: flex;
+    font-family: 'Cafe24Ssurround';
+    justify-content: space-between;
+    border-bottom: 2px solid #000000;
+}
+
+.header-menu{
+    display: flex;
+    text-align: center;
+}
+
+.header-menu a {
+    text-decoration-line: none;
+    color: #000000;
+}
+
+.header-menu a.active {
+
+}
+
+.header-menu-community{
+    margin: 10px 45px 0px 65px;
+}
+
+.header-menu-gallery{
+    margin: 10px 65px 0px 65px;
+}
+
+.header-menu-pets{
+    margin: 10px 65px 0px 45px;
+}
+
+.header-menu-search{
+    display: flex;
+    margin: 10px 65px 0px 45px;
+    max-height: auto;
+    padding-top: 20px;
+}
+
+#searchbox {
+    height: 30px;
+}
+
+.header-menu-search h2 {
+    background-color: #FFCDD2;
+    margin: 0px 0px 0px 0px;
+    height: fit-content;
+    border-radius: 40%;
+}
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

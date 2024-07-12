@@ -6,7 +6,7 @@ import Community_post from '../components/Community_post';
 function Community() {
     return(
         <>
-
+        <Community_post/>
         </>
     )
 }

@@ -1,7 +1,6 @@
 .footer {
+    text-align: center;
     font-family: 'Cafe24SsurroundAir';
-    border-top: 2px solid #000000;
-    padding: 20px;
 }
 
 @font-face {
