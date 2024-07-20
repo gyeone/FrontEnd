@@ -1,35 +1,62 @@
 .community-post {
     display: flex;
     justify-content: space-between;
+    font-family: 'Cafe24SsurroundAir';
+    color: #2F2F2F;
     margin: 30px;
     padding: 5px;
-    width: 650px;
-    border: 1px solid #2F2F2F;
-    border-radius: 1%;
+    width: 600px;
+    background-color: #ffffff;
+    border-radius: 20px;
 }
 
 .community-post-left {
     height: fit-content;
 }
-.community-post-left h4 {
-    background-color: #D9D9D9;
+.community-post-left h5 /*카테고리*/ {
+    background-color: #E8B6AF;
     width: fit-content;
     height: fit-content;
-    border-radius: 10%;
+    border-radius: 6px;
+    padding: 3px 6px 3px 6px;
     margin: 8px;
 }
 
-.community-post-left h2 {
-    margin: 8px;
+.community-post-left h2 /*제목*/ {
+    margin: 10px;
+    width: 380px;
+    height: 80px;
 }
 
-.community-post-left h5 {
-    margin: 8px;
+.community-post-left h6 /*닉네임*/ {
+    width: fit-content;
+    height: fit-content;
+    padding: 3px 6px 3px 6px;
+    margin: 4px;
 }
 
 .community-post-right {
     text-align: center;
 }
-.community-post-right h1, .community-post-right h4 {
-    margin: 0px;
+.community-post-right h3 /*아이콘*/ {
+    margin: 5px 5px 0px 5px;
+}
+
+.community-post-right-heart-icon {
+    color: #FFCDD2;
+}
+
+.community-post-right-comment-icon {
+    color: #3E2723;
+}
+
+.community-post-right h5 /*수*/ {
+    margin: 0px 5px 15px 5px;
+}
+
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }

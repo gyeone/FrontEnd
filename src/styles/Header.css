@@ -2,7 +2,6 @@
     display: flex;
     font-family: 'Cafe24Ssurround';
     justify-content: space-between;
-    border-bottom: 2px solid #000000;
 }
 
 .header-menu{
@@ -12,23 +11,47 @@
 
 .header-menu a {
     text-decoration-line: none;
-    color: #000000;
+    color: #2F2F2F;
 }
 
-.header-menu a.active {
-
+.header-menu a.active .pinklogo {
+    opacity: 1;
 }
 
 .header-menu-community{
     margin: 10px 45px 0px 65px;
+    position: relative;
+}
+
+.header-menu-community h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
 }
 
 .header-menu-gallery{
     margin: 10px 65px 0px 65px;
+    position: relative;
+}
+
+.header-menu-gallery h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
 }
 
 .header-menu-pets{
     margin: 10px 65px 0px 45px;
+    position: relative;
+}
+
+.header-menu-pets h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
 }
 
 .header-menu-search{
@@ -36,17 +59,29 @@
     margin: 10px 65px 0px 45px;
     max-height: auto;
     padding-top: 20px;
+    color: #2F2F2F;
+}
+
+.pinklogo {
+    opacity: 0;
+    width: 62.58px;
+    height: 51.2px;
 }
 
 #searchbox {
     height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #FFF0DE;
 }
 
 .header-menu-search h2 {
     background-color: #FFCDD2;
     margin: 0px 0px 0px 0px;
-    height: fit-content;
-    border-radius: 40%;
+    height: 31px;
+    width: 32px;
+    border-radius: 100px;
 }
 
 @font-face {

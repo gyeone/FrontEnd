@@ -7,27 +7,31 @@ function Community_post() {
         <>  
         <div className="community-post">
             <div className="community-post-left">
-                <h4>카테고리</h4>
+                <h5>카테고리</h5>
                 <h2>제목입니다.</h2>
-                <h5>(프로필) 닉네임  |  oo동  |  14분 전  |  조회 52</h5>
+                <h6>(프로필) 닉네임  |  oo동  |  14분 전  |  조회 52</h6>
             </div>
             <div className="community-post-right">
                 <img src=""></img>
-                <h1><FaHeart /></h1> <h4>좋아요 수</h4>
-                <h1><FaComment /></h1> <h4>댓글 수</h4>
+                <div className='community-post-right-heart-icon'><h3><FaHeart /></h3></div>
+                <h5>좋아요 수</h5>
+                <div className='community-post-right-comment-icon'><h3><FaComment /></h3> </div>
+                <h5>댓글 수</h5>
             </div>
         </div>
         
         <div className="community-post">
             <div className="community-post-left">
-                <h4>카테고리</h4>
+                <h5>카테고리</h5>
                 <h2>제목입니다.</h2>
-                <h5>(프로필) 닉네임  |  oo동  |  14분 전  |  조회 52</h5>
+                <h6>(프로필) 닉네임  |  oo동  |  14분 전  |  조회 52</h6>
             </div>
             <div className="community-post-right">
                 <img src=""></img>
-                <h1><FaHeart /></h1> <h4>좋아요 수</h4>
-                <h1><FaComment /></h1> <h4>댓글 수</h4>
+                <div className='community-post-right-heart-icon'><h3><FaHeart /></h3></div>
+                <h5>좋아요 수</h5>
+                <div className='community-post-right-comment-icon'><h3><FaComment /></h3> </div>
+                <h5>댓글 수</h5>
             </div>
         </div>
         </>

@@ -1,13 +1,16 @@
-.main-contents {
-    color: #2F2F2F;
-}
-
-.main-contents h3 {
-    font-family: 'Cafe24Ssurround';
-}
-
-.pet-news {
+.community-menu {
     display: flex;
+    justify-content: space-between;
+    font-family: 'Cafe24Ssurround';
+    color: #2F2F2F;
+    margin: 20px 100px 20px 100px;
+}
+
+.community-menu h3 {
+    background-color: #FFD0C0;
+    padding: 8px 16px 8px 16px;
+    border-radius: 6px;
+    margin: 0px;
 }
 
 @font-face {
