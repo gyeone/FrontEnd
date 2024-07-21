@@ -1,15 +1,24 @@
-.community-menu {
-    display: flex;
+.pets {
+    text-align: center;
     justify-content: space-between;
     font-family: 'Cafe24Ssurround';
     color: #2F2F2F;
-    margin: 20px 70px 20px 70px;
 }
 
-.community-menu h3 {
-    background-color: #FFD0C0;
-    padding: 8px 16px 8px 16px;
-    border-radius: 6px;
+.addition h3 {
+    margin: 0px;
+}
+
+
+.pets-heart-icon .pets-comment-icon .pets-share-icon {
+    margin: 0PX;
+}
+
+.scroll {
+
+}
+
+.pets-up-arrow-icon .pets-down-arrow-icon {
     margin: 0px;
 }
 

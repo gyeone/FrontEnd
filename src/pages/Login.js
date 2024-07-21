@@ -1,11 +1,12 @@
 import signature from '../assets/images/signature.png';
-
+import '../styles/Login.css';
+import Ad from '../components/Ad';
 
 function Login() {
     return(
         <>
         <div classname="login-header">
-            <img src= 'signature'/>
+            <img src= {signature} width="252" height="79"/>
         </div>
 
         <div classname="login-contents">
@@ -13,13 +14,7 @@ function Login() {
 
             </div>
 
-            <div classname="advertisement">
-
-            </div>
-        </div>
-
-        <div classname="login-footer">
-            
+            <Ad/>
         </div>
         </>
     )

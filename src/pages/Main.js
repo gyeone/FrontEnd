@@ -2,6 +2,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Share_screen from '../components/Share_screen';
 import '../styles/Main.css';
+import Ad from '../components/Ad';
 
 function Main() {
 
@@ -11,9 +12,7 @@ function Main() {
                 <h3>실시간 인기 게시물</h3>
             </div>
 
-            <div classname="advertisement1">      
-                <p>광고</p>      
-            </div>
+            <Ad/>
 
             <div classname="recent-posts">
                 <h3>최근 게시물</h3>
@@ -23,9 +22,7 @@ function Main() {
                 <h3>펫츠</h3>
             </div>
 
-            <div classname="advertisement2">
-                <p>광고</p>
-            </div>
+            <Ad/>
 
             <div classname="login-information">
                 <p>___님 반갑습니다.</p>

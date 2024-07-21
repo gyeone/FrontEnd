@@ -1,0 +1,64 @@
+.share {
+    width: 400px;
+    height: 240px;
+    background-color: #FFFFFF;
+    font-family: 'Cafe24SsurroundAir';
+    border-radius: 15px;
+}
+
+.share-title {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.share-app {
+    display: flex;
+    text-align: center;
+    max-width: 400px;
+    justify-content: space-between;
+    margin: 30px 30px 20px 30px;
+}
+.share-app h5 {
+    margin: 5px 0px 5px 0px;
+}
+
+.share-address {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    height: 40px;
+    margin: 0px 30px 0px 30px;
+    background-color: #FFF0DE;
+    border-radius: 12px;
+}
+
+.address h4 {
+    margin: 0px;
+    padding: 10px 5px 0px 10px;
+}
+
+.copy h4 {
+    margin: 0px;
+}
+
+.address {
+    text-align: left;
+    width: 270px;
+    height: 30px;
+}
+
+.copy {
+    background-color: #E8B6AF;
+    margin: 5px 5px 0px 0px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 12px 5px 12px;
+    border-radius: 12px;
+}
+
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
