@@ -9,9 +9,21 @@
     margin: 0px;
 }
 
+.pets-share {
+    display: flex;
+    text-align: center;
+}
 
 .pets-heart-icon .pets-comment-icon .pets-share-icon {
     margin: 0PX;
+}
+
+.pets-share-icon a.onClick .Pets-share-screen {
+    opacity: 1;
+}
+
+.Pets-share-screen {
+    
 }
 
 .scroll {

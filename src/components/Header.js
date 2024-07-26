@@ -22,7 +22,7 @@ function Header() {
                     <NavLink to='/pets'><h2>펫츠</h2><img src={pink_logo} className="pinklogo"/></NavLink>
                 </div>
                 <div className='header-menu-search'>
-                    <h2><FaSearch /></h2><input id='searchbox' type='text'/>
+                    <h2><FaSearch /></h2><input id='searchbox' type='search'/>
                 </div>
             </div>
         </div>

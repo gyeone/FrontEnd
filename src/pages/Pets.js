@@ -1,5 +1,3 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 import Share_screen from '../components/Share_screen';
 import pets_icon from '../assets/images/pets_icon.png'
 import '../styles/Pets.css';
@@ -25,8 +23,10 @@ function Pets() {
                 <h3>하트 수</h3>
                 <div className='pets-comment-icon'><h1><FaRegComment /></h1></div>
                 <h3>댓글 수</h3>
-                <div className='pets-share-icon'><h1><LuShare2 /></h1></div>
-                <Share_screen/>
+                <div className='pets-share'>
+                    <div className='pets-share-icon'><h1><LuShare2 /></h1></div>
+                    <div className='Pets-share-screen'><Share_screen/></div>
+                </div>
                 <h3>공유 수</h3>
             </div>
 

@@ -13,23 +13,23 @@ function Share_screen() {
             </div>
             <div className='share-app'>
                 <div className='kakao-app'>
-                    <img src={kakao} height="44px" height="44px"></img>
+                    <img src={kakao} width="44px" height="44px"></img>
                     <h5>카카오톡</h5>
                 </div>
                 <div className='instagram-app'>
-                    <img src={instagram} height="44px" height="44px"></img>
+                    <img src={instagram} width="44px" height="44px"></img>
                     <h5>인스타그램</h5>
                 </div>
                 <div className='facebook-app'>
-                    <img src={facebook} height="44px" height="44px"></img>
+                    <img src={facebook} width="44px" height="44px"></img>
                     <h5>페이스북</h5>
                 </div>
                 <div className='naver_mail-app'>
-                    <img src={naver_mail} height="44px" height="44px"></img>
+                    <img src={naver_mail} width="44px" height="44px"></img>
                     <h5>네이버 메일</h5>
                 </div>
                 <div className='x'>
-                    <img src={x} height="44px" height="44px"></img>
+                    <img src={x} width="44px" height="44px"></img>
                     <h5>X</h5>
                 </div>
             </div>

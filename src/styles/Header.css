@@ -19,36 +19,36 @@
 }
 
 .header-menu-community{
-    margin: 10px 45px 0px 65px;
+    margin: 0px 45px 0px 65px;
     position: relative;
 }
 
 .header-menu-community h2 {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate( -50%, -50% );
 }
 
 .header-menu-gallery{
-    margin: 10px 65px 0px 65px;
+    margin: 0px 65px 0px 65px;
     position: relative;
 }
 
 .header-menu-gallery h2 {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate( -50%, -50% );
 }
 
 .header-menu-pets{
-    margin: 10px 65px 0px 45px;
+    margin: 0px 65px 0px 45px;
     position: relative;
 }
 
 .header-menu-pets h2 {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate( -50%, -50% );
