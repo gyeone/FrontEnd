@@ -1,0 +1,22 @@
+.Pets_video {
+
+}
+
+.Pets_video_screen {
+    width: 250px;
+    height: 350px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.Pets_video_information {
+    width: 250px;
+    height: 130px;
+    background-color: #FFCDD2;
+    border-radius: 10px;
+
+}
+
+.pets-share-icon a.onClick .Pets-share-screen {
+    opacity: 1;
+}

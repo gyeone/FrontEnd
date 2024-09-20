@@ -1,3 +1,4 @@
-.post {
-    content: 30px;
+.Gallery1, .Gallery2, .Gallery3 {
+    display: flex;  
+    margin: 0px
 }

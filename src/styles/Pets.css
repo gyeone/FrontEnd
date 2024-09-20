@@ -1,12 +1,53 @@
 .pets {
+    display: flex;
     text-align: center;
     justify-content: space-between;
     font-family: 'Cafe24Ssurround';
-    color: #2F2F2F;
+    margin: 30px 150px 30px 150px;
 }
 
-.addition h3 {
-    margin: 0px;
+.pets-title {
+    display: flex;
+    height: fit-content;
+}
+
+.pets-title h3 {
+    margin: 15px 10px 0px 10px;
+}
+
+.video {
+    text-align: left;
+    background-color: #F5F5F5;
+    width: 350px;
+    height: 580px;
+    border-radius: 10px;
+}
+
+.video-information {
+    
+}
+
+.video-title {
+    margin: 20px;
+}
+
+.video-views {
+    font-family: 'Cafe24SsurroundAir';
+    margin: 20px;
+}
+
+.video-playbar {
+    border: 5px solid #FFCDD2;
+    border-radius: 5px;
+}
+
+.addition {
+    height: fit-content;
+}
+
+.addition h5 {
+    margin: -15px 0px 0px 0px;
+    font-family: 'Cafe24SsurroundAir';
 }
 
 .pets-share {
@@ -15,28 +56,31 @@
 }
 
 .pets-heart-icon .pets-comment-icon .pets-share-icon {
-    margin: 0PX;
+    margin: 0px;
 }
 
 .pets-share-icon a.onClick .Pets-share-screen {
     opacity: 1;
 }
 
-.Pets-share-screen {
-    
+.pets-up-arrow-icon .pets-down-arrow-icon {
+    margin: 0px;
 }
 
 .scroll {
-
-}
-
-.pets-up-arrow-icon .pets-down-arrow-icon {
-    margin: 0px;
+    height: fit-content;
 }
 
 @font-face {
     font-family: 'Cafe24Ssurround';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

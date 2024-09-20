@@ -6,28 +6,40 @@ import { FaRegComment } from "react-icons/fa";
 import { LuShare2 } from "react-icons/lu";
 import { FaArrowCircleUp } from "react-icons/fa";
 import { FaArrowCircleDown } from "react-icons/fa";
+import { useState } from 'react';
 
 function Pets() {
+
+    let [state, setState] = useState(false);
+
     return(
         <div className='pets'>
             <div className='pets-title'>
-                <h3><img src={pets_icon} width="50px" height="48px"/>펫츠</h3>
+                <img src={pets_icon} width="50px" height="48px"/><h3>펫츠</h3>
             </div>
 
             <div className='video'>
-
+                <div className='video-information'>
+                    <div className='video-title'>
+                        <h3>제목</h3>
+                    </div>
+                    <div className='video-views'>
+                        <h5>조회 수</h5>
+                    </div>
+                    <div className='video-playbar'/>
+                </div>
             </div>
 
             <div className='addition'>
-                <div className='pets-heart-icon'><h1><FaRegHeart /></h1></div>
-                <h3>하트 수</h3>
-                <div className='pets-comment-icon'><h1><FaRegComment /></h1></div>
-                <h3>댓글 수</h3>
+                <div className='pets-heart-icon'><h2><FaRegHeart /></h2></div>
+                <h5>하트 수</h5>
+                <div className='pets-comment-icon'><h2><FaRegComment /></h2></div>
+                <h5>댓글 수</h5>
                 <div className='pets-share'>
-                    <div className='pets-share-icon'><h1><LuShare2 /></h1></div>
-                    <div className='Pets-share-screen'><Share_screen/></div>
+                    <div className='pets-share-icon' onClick={()=>{setState(!state)}}><h2><LuShare2 /></h2></div>
+                    {state === true ? <Share_screen/>: null}
                 </div>
-                <h3>공유 수</h3>
+                <h5>공유 수</h5>
             </div>
 
             <div className='scroll'>

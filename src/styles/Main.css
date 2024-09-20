@@ -5,13 +5,88 @@
     font-style: normal;
 }
 .main-contents {
-    color: #2F2F2F;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
 }
 
 .main-contents h3 {
     font-family: 'Cafe24Ssurround';
 }
 
+.main-contents-left {
+    max-width: 70%;
+    margin-right: 10px;
+}
+
+.main-contents-right {
+    max-width: 30%;
+    margin-left: 10px;
+}
+
+.real-time-popular-posts, .recent-posts {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.real-time-popular-posts h3, .recent-posts h3, .main-pets h3, .real-time-search-terms h3 {
+    margin: 10px 10px 20px 10px;
+}
+
+.division {
+    height: 1px;
+    background-color: #2F2F2F;
+    opacity: 0.5;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.main-pets {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.login-information {
+    background-color: #ffffff;
+    padding: 30px 20px 20px 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.real-time-search-terms {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.real-time-search-terms-rank h4 {
+    color: #FFCDD2;
+}
+
 .pet-news {
     display: flex;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    font-family: 'Cafe24SsurroundAir';
+}
+
+.pet-news h3 {
+    margin: 13px 10px 20px 10px;
+}
+
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }

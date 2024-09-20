@@ -4,4 +4,75 @@
 
 .login-contents {
     text-align: center;
+    font-family: 'Cafe24SsurroundAir';
+}
+
+.login-contents a {
+    text-decoration-line: none;
+}
+
+.Login_button_to_main:hover .Login_button_to_main-text {
+    text-decoration: underline;
+}
+
+#find-register:hover .find-register-text {
+    text-decoration: underline;
+}
+
+.login {
+    font-family: 'Cafe24Ssurround';
+}
+
+#id-box, #password-box {
+    font-family: 'Cafe24SsurroundAir';
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    border: 0px;
+}
+
+.stay-sign-in {
+    display: flex;
+    justify-content: center;
+}
+
+.Login_button_to_main {
+    background-color: #FFCDD2;
+    border-radius: 5px;
+    margin: auto;
+    width: fit-content;
+}
+
+.Login_button_to_main h4 {
+    font-family: 'Cafe24SsurroundAir';
+    margin: -10px 5px 5px 5px;
+    padding: 10px 65px 10px 65px;
+    color: #2F2F2F;
+}
+
+.find {
+    display: flex;
+    justify-content: center;
+}
+
+.find h4 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#find-register {
+    color: #2F2F2F;
+}
+
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }

@@ -1,0 +1,37 @@
+.Login_status_off {
+    text-align: center;
+    display: inline-block;
+}
+.Login_status_off h3 {
+    margin: -10px 5px 5px 5px;
+    padding: 10px;
+}
+
+.Login_status_off a {
+    text-decoration-line: none;
+} 
+
+.Login_button {
+    background-color: #FFCDD2;
+    border-radius: 5px;
+    margin: auto;
+    width: fit-content;
+    color: #2F2F2F;
+}
+
+.Login_button h4 {
+    margin: -10px 5px 5px 5px;
+    font-family: 'Cafe24SsurroundAir';
+    padding: 8px 50px 8px 50px;
+}
+
+.Login_button:hover .Login {
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

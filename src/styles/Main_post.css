@@ -1,6 +1,21 @@
-.footer {
-    text-align: center;
+.Main_post {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
     font-family: 'Cafe24SsurroundAir';
+    margin: 5px;
+}
+
+.Main_post h4 {
+    margin: 5px;
+}
+
+.Main_post1 {
+    display: flex;
+}
+
+.Main_post2 {
+    display: flex;
 }
 
 @font-face {

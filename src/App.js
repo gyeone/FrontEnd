@@ -7,6 +7,7 @@ import Pets from '../src/pages/Pets';
 import Login from '../src/pages/Login';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Register from './pages/Register';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/gallery' element={<Gallery/>} />;
           <Route path='/pets' element={<Pets/>} />;
           <Route path='/login' element={<Login/>} />;
+          <Route path='/register' element={<Register/>} />;
         </Routes>
       </div>
     <div className='footer'><Footer/></div>   
